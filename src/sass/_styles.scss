@@ -1,0 +1,54 @@
+.header{
+    text-align: center;
+    padding:10px 0 10px 0;
+    overflow: hidden;
+}
+
+#is-word {
+    width: 10ch;
+    padding-inline-start: 3px;
+}
+
+button,select,input{
+    background-color: white;
+    font-size: 14pt;
+    border: 2px solid lightgray;
+}
+
+.dictionary-check, .filter-dictionary {
+    border-width: 2px 0;
+    border-style: solid;
+    border-color: gray;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.dictionary-check {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.filter-dictionary input {
+    width: 7ch;
+}
+
+.filter {
+    padding: 5px 0;
+}
+
+.p{
+    padding-top: 5px;
+}
+
+.btn{
+    margin: 10px 0 10px 0;
+}
+
+.matches {
+    text-align: center;
+    resize: none;
+    overflow-y: visible;
+    /*background-color: #fafafa;*/
+    width:100%;
+}

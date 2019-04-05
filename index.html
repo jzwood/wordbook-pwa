@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="src/sass/base.scss" rel="stylesheet" type="text/css">
+
+<body>
+    <main class="container">
+        <header class="header">
+            <h1>Wordbook</h1>
+        </header>
+        <section class="dictionary-check">
+            <p>
+                Is
+                <input type="text" id="is-word"/>
+                in the dictionary? <output id="is-in-dictionary">YES</output>
+            </p>
+        </section>
+        <section class="filter-dictionary">
+            <div class="filter starts-with">
+                <p>
+                    What starts with
+                    <input type="text" id="start" />
+                </p>
+            </div>
+            <div class="filter ends-with">
+                <p>
+                    ends with
+                    <input type="text" id="end" />
+                </p>
+            </div>
+            <div class="filter includes">
+                <p>
+                    includes
+                    <input type="text" id="includes" />
+                </p>
+            </div>
+            <div class="filter char-length">
+                <p>
+                    and has
+                    <select id="letters">
+                        <option value="-1">any number of</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7+</option>
+                    </select>
+                    letters?
+                </p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="matches" id="matchedWords"></p>
+    </footer>
+    <script src="src/index.js"></script>
+</body>
+
+</html>

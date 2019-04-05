@@ -1,0 +1,8 @@
+{
+  "name": "Word-Game-Companion2.0",
+  "theme_color": "#000000",
+  "background_color": "#ffffff",
+  "display": "browser",
+  "scope": "/",
+  "start_url": "/"
+}
